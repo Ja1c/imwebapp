@@ -1,0 +1,52 @@
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 250px; /* Adjust left position to match Sidebar width */
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0b61b8;
+  height: 60px;
+  padding: 0 20px; /* Adjust padding as needed */
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hospital-name {
+  font-size: 1.3rem;
+  margin-left: 50px;
+  font-weight: bold;
+  color: #ffffff; /* Change as needed */
+  margin-right: 100px; /* Adjust spacing as needed */
+}
+
+.search-bar {
+  width: 100%; /* Use full available width */
+  max-width: 400px; /* Limit the width if necessary */
+  padding: 8px; /* Add padding for better spacing */
+  border: none; /* Remove any border */
+  border-radius: 30px; /* Make edges round with a border radius of 30px */
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Ensure cursor changes to pointer on hover */
+}
+
+.profile-avatar {
+  width: 32px; /* Adjust avatar size */
+  height: 32px;
+  border-radius: 50%; /* Optional: Round avatar */
+  margin-right: 8px;
+}
+
+.profile-name {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.profile-name:hover {
+  text-decoration: underline; /* Example: Underline on hover */
+}

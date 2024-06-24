@@ -1,0 +1,40 @@
+/* Example styles for dashboard */
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  position: relative; /* Ensure relative positioning for containing the sidebar */
+}
+
+.main-content {
+  margin-top: 100px;
+  flex-grow: 1;
+  padding-left: 20px;
+  margin-left: 300px; /* Adjust margin to account for sidebar width */
+}
+
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.profile-avatar {
+  margin-right: 10px;
+}
+
+.dashboard-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 100px;
+  text-align: center;
+}
+
+.icon img {
+  width: 100%;
+}
